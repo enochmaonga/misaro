@@ -6,9 +6,26 @@ body {
     width: auto;
     height: 60px;
     background-color: rgb(16, 206, 240);
+  
     
 }
 ul#menubar li {
     display: inline;
-    padding: 10px;
+    padding: 20px;
+    
+      
+}
+ul#menubar {
+    text-align: right;
+   
+}
+li:hover {
+    background-color: rgb(240, 237, 231);
+    color: rgb(202, 47, 47);
+}
+.navbar {
+    float: right;
+    border: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 27px;
 }
