@@ -4,7 +4,7 @@ body {
 }
 .jumbotron {
     width: auto;
-    height: 60px;
+    height: 80px;
     background-color: rgb(16, 206, 240);
   
     
@@ -12,11 +12,12 @@ body {
 ul#menubar li {
     display: inline;
     padding: 20px;
-    
+   
       
 }
 ul#menubar {
     text-align: right;
+   
    
 }
 li:hover {
@@ -25,7 +26,22 @@ li:hover {
 }
 .navbar {
     float: right;
-    border: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:sans-serif;
     height: 27px;
+   
+}
+.logo-img {
+   margin-top: auto;
+   position: fixed;
+   top: 12px;
+   left: 12px;
+
+}
+#name {
+    text-align: center;
+    width: 20px;
+    position: fixed;
+    top: 18px;
+    left: 130px;
+
 }
