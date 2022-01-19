@@ -43,5 +43,20 @@ li:hover {
     position: fixed;
     top: 18px;
     left: 130px;
-
+ 
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(16, 206, 240);
+    width: 200px;
+    height: 600px;
+}
+.flex-container > div {
+    background-color: moccasin;
+    width: 180px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
 }
