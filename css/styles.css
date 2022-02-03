@@ -6,19 +6,19 @@ body {
 .jumbotron {
     width: auto;
     height: 80px;
-    background-color: rgb(16, 206, 240);
+    background-color: rgb(247, 193, 206);
+    scroll-behavior: auto;
   
     
 }
 ul#menubar li {
     display: inline;
-    padding: 20px;
-   
+    padding: 20px;  
       
 }
 ul#menubar {
     text-align: right;
-   
+    font-size: 16px;
    
 }
 li:hover {
@@ -29,8 +29,17 @@ li:hover {
     float: right;
     font-family:sans-serif;
     height: 27px;
-   
 }
+
+/* .navbar a {
+    float: right;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+
+} */
+
 .logo-img {
    margin-top: auto;
    position: fixed;
@@ -49,7 +58,7 @@ li:hover {
 .flex-container {
     display: flex;
     flex-direction: column;
-    background-color: rgb(16, 206, 240);
+    background-color: rgb(247, 193, 206);
     width: 200px;
     height: 600px;
 }
@@ -63,5 +72,11 @@ li:hover {
     
 }
 .sidebar {
-    /* margin-top: 10px; */
+    margin-top: 10px;
+}
+.photos {
+    margin-left: 20px;
+    padding: 50px;
+    margin-top: 20px;
+    /* margin-right: 20px; */
 }

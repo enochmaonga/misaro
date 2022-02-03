@@ -1,0 +1,29 @@
+body {
+    background-size: 100%;
+    opacity: 50%;
+
+}
+.navbar {
+    float: right;
+    font-family:sans-serif;
+    height: 20px;
+    text-align: top;
+}
+.column {
+    height: 30px;
+    width: 500px;
+    background-color: white;
+    justify-content: center;
+    float: right;
+    margin-top: 20px;
+}
+ul#menubar li {
+    display: inline;
+    padding: 10px;  
+      
+}
+ul#menubar {
+    text-align: center;
+    font-size: 14px;
+   
+}
